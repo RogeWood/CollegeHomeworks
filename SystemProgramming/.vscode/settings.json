@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "dirent.h": "c",
+        "limits.h": "c",
+        "assert.h": "c",
+        "string.h": "c",
+        "stat.h": "c",
+        "stdio.h": "c",
+        "sched.h": "c",
+        "types.h": "c"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "array": "c",
+        "*.tcc": "c",
+        "chrono": "c",
+        "functional": "c",
+        "fstream": "c",
+        "istream": "c",
+        "mutex": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "*.inc": "c"
+    }
+}

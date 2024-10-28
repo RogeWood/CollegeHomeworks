@@ -1,0 +1,15 @@
+Q1 ans:
+因為我的作業系統是 Archlinux 所以我是下載arm-cross-toolchain-linux-64-20.4.tar.gz
+執行$ tar -zxvf arm-cross-toolchain-linux-64-20.4.tar.gz
+安裝軟體套件我用 yay, Arch 有些套件例如: zlib1g-dev tcl-dev tk-dev,
+在 Arch 裡是 zlib tcl tk 等。還有itcl3 itk3l iwidgets4 皆改為安裝 iwidgets
+即可，會自動補完需要的 package
+
+Q2 ans:
+exe 檔的檔案大小比 .o 檔的檔案大小大很多
+-as 是組譯assembler 將組合語言轉成機器語言，-gcc 是編譯Compiler
+將高階語言轉成機器語言並執行
+Q3 ans:
+-O3 的 .s 檔案比 -O0 的 .s 檔案小很多，但 .o 檔的大小沒有差很多
+-O0: 沒有優化
+-O3: 最大的優話
