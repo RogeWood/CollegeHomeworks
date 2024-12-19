@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fp_add_synth_1" LaunchDir="C:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.runs/fp_add_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

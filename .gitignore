@@ -1,3 +1,7 @@
 ctags/
 *.out
 *.exe
+*.ppm
+*.vcd
+*.log
+*.bit

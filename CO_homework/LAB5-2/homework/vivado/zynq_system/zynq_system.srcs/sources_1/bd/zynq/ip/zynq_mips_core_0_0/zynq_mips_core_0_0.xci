@@ -1,0 +1,86 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "zynq_mips_core_0_0",
+    "cell_name": "mips_core_0",
+    "component_reference": "xilinx.com:user:mips_core:1.0",
+    "ip_revision": "2",
+    "gen_directory": "../../../../../../zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "zynq_mips_core_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:zc702:part0:1.4" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "HCLK": [ { "direction": "in" } ],
+        "HRESETn": [ { "direction": "in" } ],
+        "S_HSEL": [ { "direction": "in" } ],
+        "S_HADDR": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "S_HBURST": [ { "direction": "in", "size_left": "2", "size_right": "0" } ],
+        "S_HTRANS": [ { "direction": "in", "size_left": "1", "size_right": "0" } ],
+        "S_HSIZE": [ { "direction": "in", "size_left": "2", "size_right": "0" } ],
+        "S_HWRITE": [ { "direction": "in" } ],
+        "S_HWDATA": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "S_HPROT": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "S_HREADY": [ { "direction": "out" } ],
+        "S_HRDATA": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "S_HRESP": [ { "direction": "out" } ]
+      },
+      "interfaces": {
+        "ahb": {
+          "vlnv": "xilinx.com:interface:ahblite:2.0",
+          "abstraction_type": "xilinx.com:interface:ahblite_rtl:2.0",
+          "mode": "slave",
+          "memory_map_ref": "ahb",
+          "port_maps": {
+            "HTRANS": [ { "physical_name": "S_HTRANS" } ],
+            "HPROT": [ { "physical_name": "S_HPROT" } ],
+            "HSIZE": [ { "physical_name": "S_HSIZE" } ],
+            "HRDATA": [ { "physical_name": "S_HRDATA" } ],
+            "HRESP": [ { "physical_name": "S_HRESP" } ],
+            "HWRITE": [ { "physical_name": "S_HWRITE" } ],
+            "SEL": [ { "physical_name": "S_HSEL" } ],
+            "HADDR": [ { "physical_name": "S_HADDR" } ],
+            "HBURST": [ { "physical_name": "S_HBURST" } ],
+            "HWDATA": [ { "physical_name": "S_HWDATA" } ],
+            "HREADY_OUT": [ { "physical_name": "S_HREADY" } ]
+          }
+        }
+      },
+      "memory_maps": {
+        "ahb": {
+          "address_blocks": {
+            "ahb": {
+              "base_address": "0",
+              "range": "16384"
+            }
+          }
+        }
+      }
+    }
+  }
+}

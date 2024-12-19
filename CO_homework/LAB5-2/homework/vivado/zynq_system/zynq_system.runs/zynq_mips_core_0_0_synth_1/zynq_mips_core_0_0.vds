@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Dec 16 15:56:34 2024
+# Process ID         : 28652
+# Current directory  : C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.runs/zynq_mips_core_0_0_synth_1
+# Command line       : vivado.exe -log zynq_mips_core_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_mips_core_0_0.tcl
+# Log file           : C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.runs/zynq_mips_core_0_0_synth_1/zynq_mips_core_0_0.vds
+# Journal file       : C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.runs/zynq_mips_core_0_0_synth_1\vivado.jou
+# Running On         : LAPTOP-19VJSGFB
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+# CPU Frequency      : 2208 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 25595 MB
+# Swap memory        : 4194 MB
+# Total Virtual      : 29790 MB
+# Available Virtual  : 13433 MB
+#-----------------------------------------------------------
+source zynq_mips_core_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/mips_core'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Gamefile/application/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zynq_mips_core_0_0
+Command: synth_design -top zynq_mips_core_0_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29604
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1041.234 ; gain = 466.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zynq_mips_core_0_0' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/synth/zynq_mips_core_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'cpu_ahb_if' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/cpu_ahb_if.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/cpu_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'if_pipe' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/if_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sram' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/sram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sram' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/sram.v:1]
+WARNING: [Synth 8-7071] port 'addr_out' of module 'sram' is unconnected for instance 'instr_mem' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/if_pipe.v:62]
+WARNING: [Synth 8-7023] instance 'instr_mem' of module 'sram' has 7 connections declared, but only 6 given [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/if_pipe.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'if_pipe' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/if_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'id_pipe' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rf' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/rf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'rf' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/rf.v:1]
+WARNING: [Synth 8-7071] port 'rd_data' of module 'rf' is unconnected for instance 'rf' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:96]
+WARNING: [Synth 8-7023] instance 'rf' of module 'rf' has 15 connections declared, but only 14 given [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:96]
+INFO: [Synth 8-6157] synthesizing module 'fp_rf' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/fp_rf.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'fp_rf' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/fp_rf.v:3]
+WARNING: [Synth 8-7071] port 'fp_rd_data' of module 'fp_rf' is unconnected for instance 'fp_rf' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:114]
+WARNING: [Synth 8-7023] instance 'fp_rf' of module 'fp_rf' has 13 connections declared, but only 12 given [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:114]
+INFO: [Synth 8-6157] synthesizing module 'id_dcu' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_dcu.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_dcu.v:184]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_dcu.v:294]
+INFO: [Synth 8-6155] done synthesizing module 'id_dcu' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_dcu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'id_pipe' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/id_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ex_pipe' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/ex_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fp_add' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/ip/fp_add/synth/fp_add.v:53]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [C:/Gamefile/application/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:84087]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [C:/Gamefile/application/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:84087]
+INFO: [Synth 8-6155] done synthesizing module 'fp_add' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/ip/fp_add/synth/fp_add.v:53]
+INFO: [Synth 8-6157] synthesizing module 'fp_mul' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/ip/fp_mul/synth/fp_mul.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'fp_mul' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/ip/fp_mul/synth/fp_mul.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ex_pipe' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/ex_pipe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mem_pipe' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/mem_pipe.v:1]
+WARNING: [Synth 8-7071] port 'addr_out' of module 'sram' is unconnected for instance 'data_mem' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/mem_pipe.v:116]
+WARNING: [Synth 8-7023] instance 'data_mem' of module 'sram' has 7 connections declared, but only 6 given [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/mem_pipe.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'mem_pipe' (0#1) [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/mem_pipe.v:1]
+ERROR: [Synth 8-439] module 'forwarding_unit' not found [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/cpu_top.v:214]
+ERROR: [Synth 8-6156] failed synthesizing module 'cpu_top' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/cpu_top.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'cpu_ahb_if' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ipshared/b2d2/imports/hardware/cpu_ahb_if.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'zynq_mips_core_0_0' [c:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/zynq_system/zynq_system.gen/sources_1/bd/zynq/ip/zynq_mips_core_0_0/synth/zynq_mips_core_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.633 ; gain = 781.875
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 9 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 16 15:57:17 2024...

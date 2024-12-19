@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Dec  3 18:46:08 2023
+# Process ID: 11216
+# Current directory: C:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.runs/fp_mul_synth_1
+# Command line: vivado.exe -log fp_mul.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_mul.tcl
+# Log file: C:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.runs/fp_mul_synth_1/fp_mul.vds
+# Journal file: C:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.runs/fp_mul_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fp_mul.tcl -notrace

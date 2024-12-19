@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/mips_core/mips_core.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_8
+ERROR: [VRFC 10-4982] syntax error near 'ERROR' [C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/mips_core/mips_core.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd:1]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/user/Desktop/Work/CO_homework/LAB5-2/homework/vivado/mips_core/mips_core.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd' is ignored due to errors

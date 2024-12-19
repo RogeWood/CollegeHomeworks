@@ -1,0 +1,47 @@
+
+*** Running vivado
+    with args -log fp_add.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_add.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source fp_add.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 392.816 ; gain = 95.074
+INFO: [Synth 8-638] synthesizing module 'fp_add' [c:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.srcs/sources_1/ip/fp_add/synth/fp_add.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'fp_add' (18#1) [c:/Users/ryan4/Desktop/CO_LAB/LAB6/homework/vivado/mips_core/mips_core.srcs/sources_1/ip/fp_add/synth/fp_add.vhd:70]
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 483.996 ; gain = 186.254
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 483.996 ; gain = 186.254
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 483.996 ; gain = 186.254
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 502.824 ; gain = 205.082
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |     3|
+|2     |DSP48E1 |     2|
+|3     |LUT1    |     4|
+|4     |LUT2    |    23|
+|5     |LUT3    |    61|
+|6     |LUT4    |    44|
+|7     |LUT5    |    60|
+|8     |LUT6    |    70|
+|9     |MUXCY   |    58|
+|10    |XORCY   |    17|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 621.883 ; gain = 324.141
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 692.434 ; gain = 402.898
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1055.617 ; gain = 363.184

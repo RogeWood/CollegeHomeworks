@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mips_core.srcs/sources_1/imports/hardware/ahb_ctrl.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/cpu_top.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/ex_pipe.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/forwarding_unit.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/fp_rf.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/id_dcu.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/id_pipe.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/if_pipe.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/mem_pipe.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/rf.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/sram.v" \
+"../../../../mips_core.srcs/sources_1/imports/hardware/cpu_ahb_if.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
