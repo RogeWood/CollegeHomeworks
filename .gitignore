@@ -5,3 +5,4 @@ ctags/
 *.vcd
 *.log
 *.bit
+*.vscode
